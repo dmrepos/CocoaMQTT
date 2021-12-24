@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4"),
-        .package(url: "https://github.com/daltoniam/Starscream.git", from: "3.1.1"),
+        .package(url: "https://github.com/dmrepos/Starscream.git", from: "3.1.2"),
     ],
     targets: [
         .target(name: "CocoaMQTT",
